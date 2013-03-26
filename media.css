@@ -1,0 +1,129 @@
+
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+	
+	.title p {
+		font-size: 45px!important;
+	}
+	h1 {
+		font-size: 70px!important;
+		
+		padding-bottom: 30px!important;
+	}
+	
+}
+
+
+/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		
+		.topbar {
+			text-align: center;
+		}
+		
+		.top-social {
+			display: none;
+		}
+		
+		h1 {
+			font-size: 65px!important;
+			
+		}
+		
+		h1.small {
+			font-size: 78px;
+		}
+		
+		.title p {
+			font-size: 40px!important;
+		}
+		
+		.caption {
+			margin-left: auto;
+			margin-right: auto;
+			width: 300px;
+		}
+		
+		span.line {
+			display: none;
+		}
+		
+		p.proj-type2 {
+			margin-bottom: 20px;
+		}
+		
+		
+		.team ul {
+			margin-bottom: 40px;
+		}
+		
+		
+		.contact-form input {
+			width: 100%;
+		}
+		
+		
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		h1 {
+			font-size: 70px;
+			
+		}
+		
+		h1.small {
+			font-size: 60px;
+			line-height: normal;
+		}
+		
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		#intro {
+			height: 100%!important;
+		}
+		
+		nav ul {
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+		}
+		
+		nav a {
+			padding: 4px;
+		}
+		
+		
+		.title {
+			position: relative;
+			padding-top: 100px;
+		}
+		
+		
+		
+		h1 {
+			font-size: 50px!important;
+			
+		}
+		
+		h1.small {
+			font-size: 45px;
+			line-height: normal;
+		}
+		
+		.intro-arrow {
+			display: none;
+		}
+		
+		ul {
+			margin: 0px!important;
+		}
+	}
+

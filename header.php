@@ -34,7 +34,7 @@
         <div class="topbar" id="home">
             <div class="container">
                 <div class="ten columns">
-                    <p class="logo"><a href="<?php echo home_url();?>"><?php if(isset($tharsis['logo_text'])) echo $tharsis['logo_text'];?></a></p>
+                    <p class="logo"><a href="<?php echo home_url();?>"><img src="http://www.factorfirm.com/wp-content/themes/Tharsis/images/logo.png" alt="Factor"/></a></p>
                 </div>
                 <div class="six columns">
                     <ul class="top-social">
@@ -81,18 +81,21 @@
     
     
     <div id="intro">
-        <div class="title">
+        <div id="home" class="title">
             <?php if($tharsis['topheader_text']) { ?>
-                <h1><?php echo $tharsis['topheader_text'];?></h1>
+                <p><?php echo $tharsis['topheader_text'];?></p>
             <?php } ?>
-            <?php if($tharsis['topheader_smalltext']) { ?>
+            
+            <!--
+<?php if($tharsis['topheader_smalltext']) { ?>
                 <h1 class="small"><?php echo $tharsis['topheader_smalltext'];?></h1>
             <?php } ?>
+-->
             <?php if($tharsis['topheader_smallertext']) { ?>
-                <p><?php echo $tharsis['topheader_smallertext'];?></p>
+                <h1><?php echo $tharsis['topheader_smallertext'];?></h1>
             <?php } ?>
             <div class="intro-arrow">
-                <img src="<?php echo get_stylesheet_directory_uri();?>/images/intro-arrow.png" alt="" />
+               <img src="<?php echo get_stylesheet_directory_uri();?>/images/intro-arrow.png" alt="" />
             </div>
         </div> <!-- end title -->
     </div> <!-- end intro -->

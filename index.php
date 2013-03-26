@@ -128,11 +128,11 @@ get_header(); ?>
                     <ul>
                         <?php if(isset($tharsis['skype_url']) && $tharsis['skype_url'] != '') { ?><li><a href="<?php echo $tharsis['skype_url'];?>"><img src="<?php echo get_stylesheet_directory_uri();?>/images/icn-skype2.png" alt="" /></a></li><?php } ?>
                         <?php if(isset($tharsis['facebook_url']) && $tharsis['facebook_url'] != '') { ?><li><a href="<?php echo $tharsis['facebook_url'];?>"><img src="<?php echo get_stylesheet_directory_uri();?>/images/icn-facebook2.png" alt="" /></a></li><?php } ?>
-                        <?php if(isset($tharsis['linkedin_url']) && $tharsis['linkedin_url'] != '') { ?><li><a href="<?php echo $tharsis['linkedin_url'];?>"><img src="<?php echo get_stylesheet_directory_uri();?>/images/icn-linkedin.png" alt="" /></a></li><?php } ?>
+                        <?php if(isset($tharsis['linkedin_url']) && $tharsis['linkedin_url'] != '') { ?><li><a href="<?php echo $tharsis['linkedin_url'];?>" target="_blank"><img src="<?php echo get_stylesheet_directory_uri();?>/images/icn-linkedin.png" alt="" /></a></li><?php } ?>
                         <?php if(isset($tharsis['gplus_url']) && $tharsis['gplus_url'] != '') { ?><li><a href="<?php echo $tharsis['gplus_url'];?>"><img src="<?php echo get_stylesheet_directory_uri();?>/images/icn-gplus.png" alt="" /></a></li><?php } ?>
                         <?php if(isset($tharsis['pinterest_url']) && $tharsis['pinterest_url'] != '') { ?><li><a href="<?php echo $tharsis['pinterest_url'];?>"><img src="<?php echo get_stylesheet_directory_uri();?>/images/icn-pinterest.png" alt="" /></a></li><?php } ?>
                         <?php if(isset($tharsis['dribble_url']) && $tharsis['dribble_url'] != '') { ?><li><a href="<?php echo $tharsis['dribble_url'];?>"><img src="<?php echo get_stylesheet_directory_uri();?>/images/icn-dribbble.png" alt="" /></a></li><?php } ?>
-                        <?php if(isset($tharsis['twitter_username']) && $tharsis['twitter_username'] != '') { ?><li><a href="http://twitter.com/<?php echo $tharsis['twitter_username'];?>"><img src="<?php echo get_stylesheet_directory_uri();?>/images/icn-twitter2.png" alt="" /></a></li><?php } ?>
+                        <?php if(isset($tharsis['twitter_username']) && $tharsis['twitter_username'] != '') { ?><li><a href="http://twitter.com/<?php echo $tharsis['twitter_username'];?>" target="_blank"><img src="<?php echo get_stylesheet_directory_uri();?>/images/icn-twitter2.png" alt="" /></a></li><?php } ?>
                     </ul>
                 </div>
                 
