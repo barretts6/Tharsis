@@ -1,0 +1,284 @@
+/*
+Theme Name: Tharsis - FACTORIZED
+Theme URI: http://themeforest.net/user/FinalDestiny
+Version: 1.1
+Description: Portfolio template with parallax effects.
+Author: Cristi Macovei
+Author URI: http://themeforest.net/user/FinalDestiny
+Created Date: 20/08/2012
+License: Themeforest
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+All files, unless otherwise stated, are released under the GNU General Public License
+Tags: dark, light, white, black, gray, one-column, flexible-width, custom-background, custom-colors, custom-header, custom-menu, editor-style, full-width-template, theme-options, translation-ready
+*/
+/* Customized by Sarah Barrett, sarah.barrett@factorfirm.com . Do not update the theme without preserving this document.
+	
+	h1 - main title
+	h2 - Page/ section titles
+	h3 - 
+	h4 - Calls to action
+	h5 - one-third column headers process
+	h6 - one half column headers, names and position titles
+*/
+/*Mixins and colors*/
+.copy {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #575752;
+  line-height: 1.5em;
+}
+p.logo {
+  z-index: 900;
+}
+p.logo a {
+  color: #575752 !important;
+}
+p.logo a img {
+  padding-bottom: 10px;
+  margin-left: 0px;
+  height: 30px;
+}
+ul.top-social {
+  padding-right: 10px;
+}
+#home {
+  background-color: white;
+  /*
+	box-shadow: none;
+	-webkit-box-shadow: none;
+*/
+
+}
+.sixteen.columns {
+  margin: 0px!important;
+}
+.sixteen.columns nav {
+  background-color: #56a546 !important;
+  width: 100%;
+}
+.sixteen.columns nav a {
+  color: white;
+}
+.sixteen.columns nav a:hover {
+  color: #fcd343 !important;
+  background-color: #56a546 !important;
+}
+.sixteen.columns nav .columns {
+  /* padding-top: 10px; */
+
+}
+.sixteen.columns nav .contact-top {
+  margin-right: 35px!important;
+}
+#intro {
+  height: 100%;
+}
+#intro .title {
+  padding-top: 60px!important;
+}
+#intro .title p {
+  margin: 30px 0px 10px 0px;
+  text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.8);
+  font-size: 60px;
+  line-height: normal;
+  color: #fdfcfd;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#intro .title h1 {
+  font-size: 100px;
+  font-weight: 700;
+  margin: 10px 0px 35px 0px;
+  text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.8);
+  line-height: normal;
+  color: #fdfcfd;
+  text-transform: uppercase;
+}
+#about .headline h2,
+#people-at-factor .headline h2,
+#process .headline h2,
+#contact-layout .headline h2 {
+  margin-bottom: 15px;
+}
+#about .headline p,
+#people-at-factor .headline p,
+#process .headline p,
+#contact-layout .headline p {
+  text-align: center;
+  font-size: 18px;
+  border: none!important;
+  padding: 0px!important;
+  display: none;
+}
+#about .headline img,
+#people-at-factor .headline img,
+#process .headline img,
+#contact-layout .headline img {
+  visibility: hidden;
+}
+#about p,
+#people-at-factor p,
+#process p,
+#contact-layout p {
+  text-align: left;
+  line-height: 1.5em!important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #575752;
+  line-height: 1.5em;
+}
+#about ul,
+#people-at-factor ul,
+#process ul,
+#contact-layout ul {
+  margin: 4px 50px 5px 50px;
+}
+#about ul li,
+#people-at-factor ul li,
+#process ul li,
+#contact-layout ul li {
+  text-align: left;
+  border-bottom: none!important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #575752;
+  line-height: 1.5em;
+}
+#about h4,
+#people-at-factor h4,
+#process h4,
+#contact-layout h4 {
+  color: #58340d;
+  margin: 25px 0 25px 0!important;
+}
+#about h4 a,
+#people-at-factor h4 a,
+#process h4 a,
+#contact-layout h4 a {
+  color: inherit;
+  text-decoration: none;
+}
+#about h4 a:hover,
+#people-at-factor h4 a:hover,
+#process h4 a:hover,
+#contact-layout h4 a:hover {
+  color: #b1691a;
+}
+#about h6,
+#people-at-factor h6,
+#process h6,
+#contact-layout h6 {
+  color: #58340d;
+  margin-bottom: 5px;
+  text-transform: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+#about .subheader,
+#people-at-factor .subheader,
+#process .subheader,
+#contact-layout .subheader {
+  border-bottom: 1px solid #d5d5d3;
+  margin-bottom: 0.5em;
+  padding: 8px;
+  text-align: center;
+  color: #575752;
+  text-transform: uppercase;
+  height: 0.5em;
+  font-size: 1.5em;
+}
+#about .subheader a,
+#people-at-factor .subheader a,
+#process .subheader a,
+#contact-layout .subheader a {
+  text-decoration: none;
+  color: #58340d;
+}
+#about .subheader a:hover,
+#people-at-factor .subheader a:hover,
+#process .subheader a:hover,
+#contact-layout .subheader a:hover {
+  color: #b1691a;
+}
+#about .subheader:first-line,
+#people-at-factor .subheader:first-line,
+#process .subheader:first-line,
+#contact-layout .subheader:first-line {
+  background-color: white;
+  margin: 0px 10px 0px 10px;
+}
+#about .subheader:before,
+#people-at-factor .subheader:before,
+#process .subheader:before,
+#contact-layout .subheader:before,
+#about .subheader:after,
+#people-at-factor .subheader:after,
+#process .subheader:after,
+#contact-layout .subheader:after {
+  content: "";
+  color: white!important;
+}
+#about .one-third,
+#people-at-factor .one-third,
+#process .one-third,
+#contact-layout .one-third {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  /* border: 1px solid @ltgray!important; */
+
+}
+#about .one-third ul,
+#people-at-factor .one-third ul,
+#process .one-third ul,
+#contact-layout .one-third ul {
+  margin-left: 30px;
+}
+#about .one-third ul li,
+#people-at-factor .one-third ul li,
+#process .one-third ul li,
+#contact-layout .one-third ul li {
+  padding-bottom: 0px!important;
+}
+#about .columns p,
+#people-at-factor .columns p,
+#process .columns p,
+#contact-layout .columns p,
+#about .column p,
+#people-at-factor .column p,
+#process .column p,
+#contact-layout .column p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #575752;
+  line-height: 1.5em;
+}
+#people-at-factor .eight.columns {
+  margin-bottom: 30px;
+}
+#people-at-factor .eight.columns:last {
+  margin-bottom: 0px;
+}
+#process .one-third {
+  margin-bottom: 30px;
+}
+#process .one-third p {
+  padding: 15px 15px 0px 15px;
+  margin-bottom: 5px;
+}
+#process .one-third h5 {
+  border-bottom: none;
+}
+#process .one-third ul {
+  margin-left: 10px!important;
+  margin-right: 0px;
+}
+#process .one-third ul li {
+  word-wrap: break-word;
+}
+.separator {
+  background: url(images/separator-bg.jpg) repeat fixed !important;
+  background-size: 100%!important;
+}
