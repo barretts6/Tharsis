@@ -1,7 +1,8 @@
 <div class="footer">
         <p>&copy; <?php echo the_time("Y");?> <?php bloginfo('name');?> <?php _e('All Rights Reserved', 'Tharsis');?>, 
             <?php _e('designed by', 'Tharsis');?> <a href="http://teothemes.com">TeoThemes</a>, 
-            <?php _e('powered by', 'Tharsis');?> <a href="http://wordpress.org">Wordpress</a>
+            <?php _e('powered by', 'Tharsis');?> <a href="http://wordpress.org">Wordpress</a> | 
+            <a href="http://factorfirm.com/#contact-layout">Contact</a>
         </p>
     </div>
 <!-- JS
